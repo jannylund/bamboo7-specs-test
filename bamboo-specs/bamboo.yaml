@@ -1,0 +1,16 @@
+---
+version: 2
+plan:
+  project-key: PROJ
+  name: Test plan
+  key: PLAN1
+
+stages:
+  - Build:
+      jobs: 
+        - Build1
+
+Build1:
+  tasks:
+    - script:
+        - echo 'Hello world from master'
