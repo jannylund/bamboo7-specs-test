@@ -8,9 +8,9 @@ plan:
 stages:
   - Build:
       jobs: 
-        - Build1
+        - Build2
 
-Build1:
+Build2:
   tasks:
     - script:
-        - echo 'Hello world from master'
+        - echo 'Hello world from feature plan'
